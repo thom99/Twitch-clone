@@ -1,0 +1,50 @@
+.show{
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.title{
+    margin-left: 6px;
+    margin-bottom: 8px;
+}
+.link{
+    font-size: 20px;
+    color: #772CE8;
+}
+
+.categorie{
+    font-weight: bold;
+    font-size: 12px;
+}
+.card{
+    position: relative;
+    max-width: 125px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.card:hover{
+    cursor: pointer;
+}
+.categorie:hover{
+    cursor: pointer;
+    color: #772CE8;
+}
+.image{
+    position: absolute;
+    z-index: 1;
+ }
+ .backImage{
+     visibility: hidden;
+     width: 125px;
+     height: 180px;
+ }
+ .image:hover{
+     transition: all 10s;
+     left: 5px;
+     top: -5px;
+ }
+ .card:hover .backImage{
+    visibility: visible;
+ }

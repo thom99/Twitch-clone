@@ -1,0 +1,19 @@
+.linkStream {
+    text-decoration: none;
+}
+
+.show {
+    display: flex;
+    justify-content: space-between;
+}
+
+.show span {
+    color: #772ce8;
+    font-size: 14px;
+}
+
+.show span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: #772ce8;
+}

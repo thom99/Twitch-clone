@@ -1,0 +1,92 @@
+.slider {
+  position: relative;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.rightArrow {
+  position: absolute;
+  top: 50%;
+  right: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.leftArrow {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.video0 {
+  position: absolute;
+  width: 10%;
+  left: 15%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  /* opacity: 0; */
+  transition: width 1s, left 1s;
+}
+
+.video1 {
+  position: absolute;
+  width: 30%;
+  left: 30%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+
+  transition: width 1s, left 1s;
+}
+
+.video2 {
+  position: absolute;
+  width: 50%;
+  left: 50%;
+  top: 50%;
+  z-index: 4;
+  transform: translate(-50%, -50%);
+  transition: width 1s, left 1s;
+}
+
+  .video3 {
+  position: absolute;
+  width: 30%;
+  left: 70%;
+  top: 50%;
+  z-index: 3;
+  transform: translate(-50%, -50%);
+  transition: width 1s, left 1s; 
+}
+
+.video4 {
+  position: absolute;
+  width: 10%;
+  left: 85%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: all 1s;
+  transition: width 1s, left 1s;
+}
+
+.little {
+  width: 1000px;
+  height: 200px;
+  border-radius: 6px;
+}

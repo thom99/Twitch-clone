@@ -1,0 +1,65 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.container:hover {
+    background-color: #dbdbdb;
+}
+
+.container p {
+    margin: 0;
+}
+
+.img {
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.info {
+    flex-grow: 1;
+    margin-left: 10px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.infoTitle {
+    color: #1f1f23;
+    font-size: 14px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.infoGame {
+    color: #53535f;
+    font-size: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.visual {
+    display: flex;
+    align-items: center;
+}
+
+.visual p {
+    color: #1F1F23;
+}
+
+.redCircle {
+    width: 8px;
+    height: 8px;
+    background-color: #E91916;
+    border-radius: 50%;
+}

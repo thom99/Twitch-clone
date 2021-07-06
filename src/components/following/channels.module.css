@@ -1,0 +1,37 @@
+.span{
+    text-align: left;
+    border: none;
+    background-color: whitesmoke;
+    /* margin-bottom: 10px; */
+    margin: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Helvetica,Helvetica,Arial,sans-serif;
+}
+.channels{
+    min-height: 100vh;
+    background-color: whitesmoke;
+}
+.show{
+    display:  flex;
+    flex-direction: row;
+    justify-content: left;
+    flex-wrap: wrap;
+    min-height: 53.8vh;
+}
+
+.card{
+    margin-left: 10px;
+    margin-bottom:60px;
+    height: 154px;
+    /* padding: 5px; */
+}
+
+.card img{
+    width: 342px;
+    height: 192px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
